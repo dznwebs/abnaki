@@ -4,7 +4,7 @@ const WhyChooseUs = () => {
   return (
     <div id="why-choose-us" className="relative mx-auto mt-32 max-w-4xl px-6 md:px-12">
       <h3 className="text-3xl font-bold text-[#0a3b5b] md:text-4xl">
-        Why Choose ABNAKI International
+        Why Choose ABNAKI INTERNATIONAL
       </h3>
       <p className="mt-6 text-lg text-gray-600">
         With over a decade of experience in intellectual property protection, we offer unmatched expertise and personalized service to clients worldwide.
@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
           </div>
           <div>
             <h4 className="mb-2 text-xl font-semibold text-[#0a3b5b]">Proven Success Rate</h4>
-            <p className="text-gray-600">Our track record speaks for itself with a 95% success rate in trademark registrations across multiple jurisdictions.</p>
+            <p className="text-gray-600">Our track record speaks for itself with a 95% success rate in IP protection across multiple jurisdictions.</p>
           </div>
         </div>
 

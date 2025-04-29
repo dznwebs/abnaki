@@ -13,7 +13,7 @@ const Footer = () => {
             <h4 className="mb-4 font-semibold text-[#0a3b5b]">Services</h4>
             <ul className="space-y-2 text-sm text-gray-500">
               <li>IP Portfolio Management</li>
-              <li>Trademark Monitoring</li>
+              <li>IP Monitoring</li>
             </ul>
           </div>
           <div>

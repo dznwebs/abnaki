@@ -13,7 +13,7 @@ const Hero = () => {
             With Precision
           </h2>
           <p className="mt-8 text-lg text-gray-600">
-            We secure trademarks. Since 2015, ABNAKI has directly protected innovative assets with expert precision and comprehensive global coverage.
+            We secure Intelectual Property. Since 2015, ABNAKI has directly protected innovative assets with expert precision and comprehensive global coverage.
           </p>
         </div>
 

@@ -7,7 +7,7 @@ const Process = () => {
   return (
     <div id="process" className="relative mx-auto mt-32 max-w-4xl px-6 md:px-12">
       <h3 className="text-3xl font-bold text-[#0a3b5b] md:text-4xl">
-        Our Trademark Protection Process
+        Our IP Protection Process
       </h3>
       <p className="mt-6 text-lg text-gray-600">
         We've streamlined our process to make securing your intellectual property as efficient and hassle-free as possible.
