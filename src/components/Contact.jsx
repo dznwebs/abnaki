@@ -1,4 +1,5 @@
 import React from 'react';
+import womanWithIpadImage from '../assets/woman_with_ipad.png';
 
 const Contact = () => {
   return (
@@ -22,7 +23,7 @@ const Contact = () => {
           <div className="md:w-1/2">
             <div className="h-full">
               <img
-                src="src/assets/woman_with_ipad.png"
+                src={womanWithIpadImage}
                 alt="Woman with iPad"
                 className="h-full w-full object-cover"
               />

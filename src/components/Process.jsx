@@ -1,4 +1,7 @@
 import React from 'react';
+import managementImage from '../assets/management.webp';
+import intStrategyImage from '../assets/int-strategy.avif';
+import tailoredAdviceImage from '../assets/tailored-advice.avif';
 
 const Process = () => {
   return (
@@ -14,7 +17,7 @@ const Process = () => {
         {/* Card 1 */}
         <div className="overflow-hidden rounded-lg bg-white shadow-md transition-all hover:shadow-lg">
           <div className="h-48 overflow-hidden">
-            <img src="src/assets/management.webp" alt="Comprehensive IP Management" className="h-full w-full object-cover" />
+            <img src={managementImage} alt="Comprehensive IP Management" className="h-full w-full object-cover" />
           </div>
           <div className="p-6">
             <h4 className="mb-2 text-xl font-semibold text-[#0a3b5b]">Comprehensive IP Management</h4>
@@ -25,7 +28,7 @@ const Process = () => {
         {/* Card 2 */}
         <div className="overflow-hidden rounded-lg bg-white shadow-md transition-all hover:shadow-lg">
           <div className="h-48 overflow-hidden">
-            <img src="src/assets/int-strategy.avif" alt="International Strategy" className="h-full w-full object-cover" />
+            <img src={intStrategyImage} alt="International Strategy" className="h-full w-full object-cover" />
           </div>
           <div className="p-6">
             <h4 className="mb-2 text-xl font-semibold text-[#0a3b5b]">International Strategy</h4>
@@ -36,7 +39,7 @@ const Process = () => {
         {/* Card 3 */}
         <div className="overflow-hidden rounded-lg bg-white shadow-md transition-all hover:shadow-lg">
           <div className="h-48 overflow-hidden">
-            <img src="src/assets/tailored-advice.avif" alt="Tailored Advice" className="h-full w-full object-cover" />
+            <img src={tailoredAdviceImage} alt="Tailored Advice" className="h-full w-full object-cover" />
           </div>
           <div className="p-6">
             <h4 className="mb-2 text-xl font-semibold text-[#0a3b5b]">Tailored Advice</h4>

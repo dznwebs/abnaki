@@ -1,4 +1,5 @@
 import React from 'react';
+import publicImage from '../assets/public.avif';
 
 const Services = () => {
   return (
@@ -12,7 +13,7 @@ const Services = () => {
         <div className="md:w-2/5 mb-12 md:mb-0">
           <div className="overflow-hidden rounded-lg shadow-xl">
             <img
-              src="src/assets/public.avif"
+              src={publicImage}
               alt="Intellectual Property Protection"
               className="w-full h-auto object-cover"
             />

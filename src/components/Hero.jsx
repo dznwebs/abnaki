@@ -1,4 +1,5 @@
 import React from 'react';
+import homeImage from '../assets/home.avif';
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
           <div className="overflow-hidden rounded-lg shadow-xl">
             <div className="aspect-w-4 aspect-h-3 bg-gradient-to-r from-blue-100 to-blue-200 h-80 flex items-center justify-center">
               <div className="text-center p-4">
-                <img src="src/assets/home.avif" alt="Comprehensive IP Management" className="h-full w-full object-cover" />
+                <img src={homeImage} alt="Comprehensive IP Management" className="h-full w-full object-cover" />
               </div>
             </div>
           </div>
