@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import MissionVision from './components/MissionVision';
 import BackgroundDecoration from './components/BackgroundDecoration';
 import Services from './components/Services';
 import WhyChooseUs from './components/WhyChooseUs';
@@ -31,6 +32,7 @@ function App() {
         scrollToSection={scrollToSection} 
       />
       <Hero />
+      <MissionVision />
       <BackgroundDecoration />
       <Services />
       <WhyChooseUs />

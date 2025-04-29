@@ -39,6 +39,12 @@ const Navbar = ({ isMenuOpen, toggleMenu, scrollToSection }) => {
             </button>
             <button
               className="text-xl font-semibold text-[#0a3b5b] hover:text-blue-500"
+              onClick={() => scrollToSection('mission-vision')}
+            >
+              Mission & Vision
+            </button>
+            <button
+              className="text-xl font-semibold text-[#0a3b5b] hover:text-blue-500"
               onClick={() => scrollToSection('services')}
             >
               Services
