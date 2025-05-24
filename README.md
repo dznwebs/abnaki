@@ -60,13 +60,28 @@ After setting up:
 
 ## Troubleshooting
 
-If you're not receiving emails:
+### If you're getting HTTP 405 (Method Not Allowed) errors:
+
+1. Make sure your form has `method="POST"` and `data-static-form-name="contact"` attributes
+2. Verify that the `@cloudflare/pages-plugin-static-forms` package is installed
+3. Check that your Cloudflare Pages Functions are properly enabled
+4. Try deploying a new version of your site to refresh the Functions configuration
+
+### If you're not receiving emails:
 
 1. Check your spam/junk folder
 2. Verify your environment variables are set correctly
 3. Check the Cloudflare Pages logs for any errors
 4. Make sure your domain is properly verified in Cloudflare
 5. Ensure your SPF and DKIM records are correctly set up
+6. Verify that the sender email domain is properly configured in Cloudflare
+
+### Important Notes About Cloudflare Email:
+
+- The sender email domain **must** be registered and verified in Cloudflare
+- You cannot use public email domains like gmail.com or outlook.com as the sender
+- Your domain must have proper DNS records set up in Cloudflare
+- For production use, you should have SPF and DKIM records properly configured
 
 ## Local Development
 
