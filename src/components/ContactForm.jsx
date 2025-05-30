@@ -16,9 +16,7 @@ export default function ContactForm() {
 
   // Handle form submission
   const handleSubmit = async (e) => {
-    // We don't prevent default because we want the form to submit normally
-    // through the Cloudflare Pages static forms handler
-    
+  
     // But we can add some UI feedback
     setIsSubmitting(true);
     setSubmitError(null);
